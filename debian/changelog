@@ -1,4 +1,4 @@
-git-buildpackage (0.9.0~exp4) experimental; urgency=medium
+git-buildpackage (0.9.0nacc) experimental; urgency=medium
 
   [ Ken Dreyer ]
   * [0ca5283] doc: expand --git-pbuilder-options docs.

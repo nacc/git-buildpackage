@@ -33,7 +33,7 @@ def fetch_version():
             if line.startswith('Version:'):
                 version = line.split(' ')[1].strip()
                 break
-        version = version.replace('~', '_')
+        version = version.split('~')[0]
     except OSError:
         pass  # Failing is fine, we just can't print the version then
 
